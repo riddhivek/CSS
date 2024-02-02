@@ -1,0 +1,337 @@
+.main {
+    display: flex;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.box-1 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px dotted red;
+}
+
+.box-2 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px solid red;
+}
+
+.box-3 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px inset red;
+}
+
+.box-4 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px outset red;
+}
+
+.box-5 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px double red;
+}
+
+.box-6 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px ridge red;
+}
+
+.box-7 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px none red;
+}
+
+.box-8 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px dashed red;
+}
+
+.box-9 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px groove red;
+}
+
+.box-10 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin-right: 10px;
+    border: 5px hidden red;
+}
+
+.box-1 {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: blue;
+    border-top-style: solid;
+    border-right-width: 10px;
+    border-bottom-color: red;
+    border-top: none;
+    border-left: none;
+}
+
+radius {
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    border-radius: 40px;
+    border-radius: 10px 50px 100px;
+    border-radius: 10px 50px 70px 100px;
+}
+
+.boxx-2 {
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    border: 5px solid rgb(243, 6, 6);
+    outline: 5px solid purple;
+    outline-offset: 10px;
+    margin: 200px;
+}
+
+.opacity {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(0, 255, 64);
+    opacity: 1;
+    color: rgb(0, 0, 255);
+}
+
+button {
+    background-color: red;
+    border: none;
+    padding: 10px, 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button-hover {
+    outline: 2px solid blue;
+}
+
+.link-1 {
+    text-decoration: none;
+    padding: 10pz 20px;
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+a:hover {
+    border: 5px solid black;
+    background-color: rgba(255, 0, 247, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+a :focus {
+    border: 5px solid black;
+    background-color: rgba(255, 0, 0, 0.42);
+    color: blue;
+}
+
+input {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input:hover {
+    border: 2px solid green;
+    box-shadow: 5px 5px 1px red;
+}
+
+input-focus {
+    box-shadow: 2px 2px 0.5px red;
+}
+
+.font-family p:nth-child(1) {
+    font-family: 'Gill sans', 'Gill sans MT', calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.font-family p:nth-child(2) {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.font-family p:nth-child(3) {
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.font-size p {
+    font-size: 30px;
+}
+
+.font-style p:nth-child(1) {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.font-style p:nth-child(2) {
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.font-varient p:nth-child(1) {
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+.font-weight p:nth-child(1) {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.line-height p {
+    font-size: 5px;
+    line-height: 4px;
+}
+
+.text-color p {
+    color: green;
+}
+
+.text-align p:nth-child(1) {
+    text-align: center;
+}
+
+.text-align p:nth-child(2) {
+    text-align: left;
+}
+
+.text-align p:nth-child(3) {
+    text-align: right;
+}
+
+.text-align p:nth-child(4) {
+    text-align: justify;
+}
+
+.text-decoration p:nth-child(1) {
+    text-decoration: overline;
+}
+
+.text-decoration p:nth-child(2) {
+    text-decoration: line-through;
+}
+
+.text-decoration p:nth-child(3) {
+    text-decoration: underline;
+}
+
+.text-decoration p:nth-child(4) {
+    text-decoration: underline dotted;
+}
+
+.text-decoration p:nth-child(5) {
+    text-decoration: wavy red line-through;
+}
+
+.text-decoration a {
+    text-decoration: none;
+}
+
+.text-transform p:nth-child(1) {
+    text-transform: capitalize;
+}
+
+.text-transform p:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.text-transform p:nth-child(3) {
+    text-transform: lowercase;
+}
+
+.text-indent p:nth-child(1) {
+    text-indent: 100px;
+}
+
+.letter-spacing p {
+    letter-spacing: 10px;
+}
+
+.world-spacing p {
+    word-spacing: 10px;
+}
+
+.text-direction p {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.text-shadow p:nth-child(1) {
+    text-shadow: 2px 2px 1px rgb(255, 0, 0);
+}
+
+.text-shadow p:nth-child(2) {
+    text-shadow: 2px 2px 1px yellow;
+}
+
+.text-shadow p:nth-child(3) {
+    text-shadow: 2px 2px 1px pink;
+}
+
+p .a {
+    vertical-align: bottom;
+}
+
+p .b {
+    vertical-align: baseline;
+}
+p .c {
+    vertical-align: middle;
+}
+p .d {
+    vertical-align: sub;
+}
+p .e {
+    vertical-align: super;
+}
+p .f {
+    vertical-align: text-bottom;
+}
+p .g {
+    vertical-align: top;
+}
+.whitespace{
+    word-wrap: normal;
+    word-wrap: break-word;
+}
+h1{
+    visibility: hidden;
+}

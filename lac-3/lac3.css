@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.demo {
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+}
+.demo-1{
+    height: 300px;
+    background-color: rgb(236,78,78);
+    border: 1px solid blue
+};
+.content-box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 1px solid blue;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.border-box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 1px solid blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ol {
+    list-style-type: armenian;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
+    list-style-type: lower-roman;
+    list-style-type: none;
+    list-style-type: upper-alpha;
+    list-style-type: upper-latin;
+    list-style-type: upper-roman;
+    list-style-type: inside;
+}
+

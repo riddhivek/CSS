@@ -1,0 +1,34 @@
+@media (max-width:1500px){}
+@media (max-width:1400px){}
+@media (max-width:1200px){}
+@media (max-width:992px){
+
+    .navbar{
+        display: none   ;
+    }
+}
+@media (max-width:768px){}
+@media (max-width:576px){}
+@media (max-width:420px){
+
+    .navbar{
+        display: none;
+    }
+
+    .social-media{
+        display: none;
+    }
+     
+    .icon{
+        order:2;
+    }
+    .logo{
+        order:1;
+    }
+
+    .creative-content{
+        text-align: center;
+    }
+
+    
+}

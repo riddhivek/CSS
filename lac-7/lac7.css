@@ -1,0 +1,188 @@
+/* .div-1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+.div-1:hover {
+    transform: translate(200px, 100px);
+    transition: 1s;
+}
+
+.div-2 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    color: white;
+}
+
+.div-2:hover {
+    transform: translateX(200px);
+    transition: 5s;
+}
+
+.div-3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.div-3:hover {
+    transform: translateY(200px);
+    transition: 5s;
+}
+
+.div-4 {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    color: white;
+}
+
+.div-4:hover {
+    transform: scale(2);
+    transition: 1s;
+}
+
+.div-5 {
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.div-5:hover {
+    transform: scaleX(2);
+    transition: 1s;
+}
+
+.div-6 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(179, 27, 128);
+    color: white;
+}
+
+.div-6:hover {
+    transform: scaleY(2);
+    transition: 1s;
+}
+
+.div-7 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+.div-7:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.div-8 {
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    color: white;
+}
+.div-8:hover{
+    transform: skew(45deg,90deg);
+    transition: 2s;
+}
+.div-9 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    color: white;
+}
+.div-9:hover{
+    transform: skewX(45deg);
+    transition: 2s;
+}
+.div-10 {
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    color: white;
+}
+.div-10:hover{
+    transform: skewY(90deg);
+    transition: 2s;
+} */
+
+/* .div-1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+.div-1:hover{
+    height: 200px;   
+    width: 200px;
+    transition-duration: 5s;
+    transition-delay: linear;
+    transition-property: width;
+    transition-timing-function: ease;
+}
+.div-2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow ;
+    color: white;
+  
+}
+.div-2:hover{
+    height: 200px;   
+    width: 200px;
+    transition-duration: 5s;
+    transition-delay: linear;
+    transition-property: width;
+    transition-timing-function: ease-in;
+}
+.div-3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: white;
+
+}
+.div-3:hover{
+    height: 200px;   
+    width: 200px;
+    transition-duration: 5s;
+    transition-delay: linear;
+    transition-property: width;
+    transition-timing-function: ease-out;
+}
+.div-4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+   
+}
+.div-4:hover{
+    height: 200px;   
+    width: 200px;
+    transition-duration: 5s;
+    transition-delay: linear;
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+} */
+
+img {
+    height: 500px;
+    width: 800px;
+    /* filter: blur(10px); */
+    /* filter: brightness(50%); */
+    /* filter: contrast(10%); */
+    filter: grayscale(100%);
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(100%); */
+    /* filter: none; */
+    /* filter: opacity(50%); */
+    /* filter: drop-shadow(50px 20px); */
+}
